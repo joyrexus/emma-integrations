@@ -77,7 +77,7 @@ For an overview of the service and a description of how to use it for contact sy
 
 * Revise and expand the [pubic API docs](http://api.myemma.com/index.html). See the [`gh-pages`](https://github.com/myemma/emma-api-documentation/tree/gh-pages) branch of the [repo](https://github.com/myemma/emma-api-documentation).
 
-* Create a golang client mirroring the features of the
+* Create a golang client for the Public API mirroring the features of the
   [node](https://github.com/nathanpeck/emma-sdk) and
   [python](https://github.com/myemma/EmmaPython) clients.
 
