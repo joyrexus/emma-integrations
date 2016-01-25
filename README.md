@@ -1,7 +1,13 @@
 # Emma Integrations
 
+We at Emma are in the process of setting up a new Integrations Engineering
+Team.  Most of us are new to the company, still getting oriented.  This is an initial attempt at an overview of Emma's current integration landscape along with some suggestions for future integration tasks.
+
 
 # Options
+
+There are two principal resources for developing third-party integrations with
+Emma, viz., Emma's [Public API](http://api.myemma.com/index.html) and an internally available [Integration Service](https://github.com/emmadev/eda-integrations).
 
 ## Public API
 
