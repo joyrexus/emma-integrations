@@ -7,7 +7,7 @@ Team.  Most of us are new to the company, still getting oriented.  This is an in
 # Options
 
 There are two principal resources for developing third-party integrations with
-Emma, viz., Emma's [Public API](http://api.myemma.com/index.html) and an internally available [Integration Service](https://github.com/emmadev/eda-integrations).
+Emma, viz., Emma's [Public API](http://api.myemma.com/index.html) as well as an internally available [Integration Service](https://github.com/emmadev/eda-integrations).
 
 ## Public API
 
@@ -69,16 +69,22 @@ See the [`eda-integrations`](https://github.com/emmadev/eda-integrations) repo. 
 For an overview of the service and a description of how to use it for contact syncing, see [this document](https://github.com/emmadev/eda-integrations/blob/master/docs/ac-overview.md).
 
 
-# Todo
+# Ideas
 
-* Review [REST hook patterns](http://resthooks.org/docs/).  REST hooks are a set of patterns for implementing subscription-based webhooks. See [this flask-based example](https://github.com/zapier/resthooks).
-
-* Evaluate potential use of [rehook](https://github.com/jstemmer/rehook) for dispatching, logging, and metrics.
-
-* Revise and expand the [pubic API docs](http://api.myemma.com/index.html). See the [`gh-pages`](https://github.com/myemma/emma-api-documentation/tree/gh-pages) branch of the [repo](https://github.com/myemma/emma-api-documentation).
+* Revise and expand the [pubic API docs](http://api.myemma.com/index.html). 
+  * See the [`gh-pages`](https://github.com/myemma/emma-api-documentation/tree/gh-pages) branch of the [repo](https://github.com/myemma/emma-api-documentation).
+  * Compare with API docs of other vendors ([Campaign
+    Monitor](https://www.campaignmonitor.com/api/getting-started/),
+    [MailChimp](http://developer.mailchimp.com/documentation/mailchimp/))
 
 * Create a golang client for the Public API mirroring the features of the
   [node](https://github.com/nathanpeck/emma-sdk) and
   [python](https://github.com/myemma/EmmaPython) clients.
 
+* Create [github-hosted project pages](https://pages.github.com) for official Emma clients libs. See [createsend client lib] as an example.
+
 * Create [a Slack app](https://api.slack.com/slack-apps) providing Slash commands for key endpoints and incoming webhooks for event notification.
+
+* Review [REST hook patterns](http://resthooks.org/docs/).  REST hooks are a set of patterns for implementing subscription-based webhooks. See [this flask-based example](https://github.com/zapier/resthooks).
+
+* Evaluate potential use of [rehook](https://github.com/jstemmer/rehook) for dispatching, logging, and metrics.
