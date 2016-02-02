@@ -40,8 +40,7 @@ Implement a [direct integration](https://segment.com/docs/partners/direct-integr
 
 Create [a Slack app](https://api.slack.com/slack-apps) providing Slash commands for key endpoints and incoming webhooks for event notification.
 
-See the [MailChimp](https://slack.com/apps/A0F82E726-mailchimp) and
-[Intercom](https://slack.com/apps/A0F81R6LF-intercom) Slack apps
+See the [MailChimp](https://slack.com/apps/A0F82E726-mailchimp) and [Intercom](https://slack.com/apps/A0F81R6LF-intercom) Slack apps for the basic model.
 
 
 ## Other
