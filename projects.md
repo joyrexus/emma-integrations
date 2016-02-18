@@ -12,6 +12,8 @@ Suggestions and ideas for Emma's nascent integrations team.
   * [MailChimp](http://developer.mailchimp.com/documentation/mailchimp/)
   * [SendGrid](https://sendgrid.com/docs/API_Reference/index.html)
 
+* Compare API doc/testing tools [Apiary vs ReadMe vs Gelato](http://stackshare.io/stackups/apiary-vs-readme-io-vs-gelato-io)
+
 
 ## API clients
 
