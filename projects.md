@@ -8,9 +8,9 @@ Suggestions and ideas for Emma's nascent integrations team.
 * Revise and expand the [API docs](http://api.myemma.com/index.html). See the [`gh-pages`](https://github.com/myemma/emma-api-documentation/tree/gh-pages) branch of the [repo](https://github.com/myemma/emma-api-documentation).
 
 * Compare with API docs of other vendors:
-  * [Campaign Monitor](https://www.campaignmonitor.com/api/getting-started/)
   * [MailChimp](http://developer.mailchimp.com/documentation/mailchimp/)
   * [SendGrid](https://sendgrid.com/docs/API_Reference/index.html)
+  * [Campaign Monitor](https://www.campaignmonitor.com/api/getting-started/)
 
 * Compare API doc/testing tools [Apiary vs ReadMe vs Gelato](http://stackshare.io/stackups/apiary-vs-readme-io-vs-gelato-io)
 
