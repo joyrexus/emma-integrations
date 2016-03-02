@@ -54,3 +54,8 @@ See the [MailChimp](https://slack.com/apps/A0F82E726-mailchimp) and [Intercom](h
 * Review [REST hook patterns](http://resthooks.org/docs/).  REST hooks are a set of patterns for implementing subscription-based webhooks. See [this flask-based example](https://github.com/zapier/resthooks).
 
 * Evaluate potential use of [rehook](https://github.com/jstemmer/rehook) for dispatching, logging, and metrics.
+
+* Evaluate API doc/testing options
+  * [yaag](https://github.com/betacraft/yaag), an API doc generator for golang web services.
+  * [silk](https://medium.com/@matryer/introducing-silk-markdown-driven-api-tests-1f8cfb0ef99a#.roley2jzv) 
+
