@@ -15,6 +15,7 @@ Suggestions and ideas for Emma's nascent integrations team.
 * Compare API doc/testing tools [Apiary vs ReadMe vs Gelato](http://stackshare.io/stackups/apiary-vs-readme-io-vs-gelato-io)
 
 * Review API prototyping tutorials:
+  * [API Blueprint Tutorial](https://apiblueprint.org/documentation/tutorial.html)
   * [Quickly Prototype APIs with Apiary](https://sendgrid.com/blog/quickly-prototype-apis-apiary/)
   * [Building APIs with Swagger](http://radar.oreilly.com/2015/09/building-apis-with-swagger.html)
 
