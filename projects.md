@@ -31,6 +31,7 @@ Consider creating [github-hosted project pages](https://pages.github.com) for of
 
 Implement a [direct integration](https://segment.com/docs/partners/direct-integration/#2-build-an-endpoint-to-receive-customer-data) with [Segment](https://segment.com).
 
+
 #### Resources 
 
 * Segment [integrations list](https://segment.com/integrations) -- see the
