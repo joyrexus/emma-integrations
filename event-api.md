@@ -34,8 +34,7 @@ const headers = {
 };
 ```
 
-The Event's API is using [a custom authorizer](https://github.com/emmadev/external-events/tree/master/emma-api-authorizer) to validate the Basic Auth header. This is a lambda function that [takes the authorization header passed to
-the API Gateway endpoint and makes a request to Emma's public API to
+The Event's API is using [a custom authorizer](https://github.com/emmadev/external-events/tree/master/emma-api-authorizer) to validate the Basic Auth header. This is a lambda function that [takes the authorization header passed to the API Gateway endpoint and makes a request to Emma's public API to
 validate the header](https://github.com/emmadev/external-events/blob/master/emma-api-authorizer/index.js#L74-L82). See [this article](https://aws.amazon.com/jp/blogs/compute/introducing-custom-authorizers-in-amazon-api-gateway/) for an intro to using custom authorizers with the API Gateway.
 
 
