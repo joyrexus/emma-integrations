@@ -27,23 +27,6 @@ Create a golang client for the Public API mirroring the features of the [node](h
 Consider creating [github-hosted project pages](https://pages.github.com) for official Emma clients libs. See [createsend client lib](http://campaignmonitor.github.io/createsend-python/) as an example.
 
 
-## Segment integration
-
-Implement a [direct integration](https://segment.com/docs/partners/direct-integration/#2-build-an-endpoint-to-receive-customer-data) with [Segment](https://segment.com).
-
-
-#### Resources 
-
-* Segment [integrations list](https://segment.com/integrations) -- see the
-  **email** category
-
-* Segment [spec](https://segment.com/docs/spec/)
-
-* MailChimp's [integration docs](https://segment.com/docs/integrations/mailchimp/)
-
-* [Overview](http://www.activecampaign.com/blog/share-contact-data-with-other-apps/) of Active Campaign's integration.
-
-
 ## Slack app
 
 Create [a Slack app](https://api.slack.com/slack-apps) providing Slash commands for key endpoints and incoming webhooks for event notification.
