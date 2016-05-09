@@ -1,7 +1,7 @@
 # event-driven architecture
 
 We use Amazon's Simple Queue Service and Simple Notifications Service to create
-a event messaging system for our event-driven applications.  See details [here](https://github.com/emmadev/architecture/blob/master/docs/eda-on-aws.md).
+event messaging systems for our event-driven applications.  See details [here](https://github.com/emmadev/architecture/blob/master/docs/eda-on-aws.md).
 
 [eda-core](https://github.com/emmadev/eda-core) is Emma's own opinionated library with concrete and abstract implementations of tools needed to build an event-driven service.
 
