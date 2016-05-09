@@ -1,8 +1,13 @@
 # Event API
 
+The Event API handles POST requests with arbitrary JSON payloads from external sources and relays them as event messages to internal Emma services.
+
+The private repo containing the Event API's implementation is
+[`emmadev/external-events`](https://github.com/emmadev/external-events).
+
 The endpoint for the Event API is `https://events.e2ma.net/v1/<account>/events/`.
 
-It accepts POST requests with valid JSON.  However, the payload must include a valid email address currently associated with a contact in user’s audience to trigger workflow (i.e., `"email": "user@acme.org"`). The request must also include an Authorization header consisting of a user's public API key as username, private key as password, encoded in [basic auth](https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) format.  A user can generate API keys from their Emma account in **Account Settings** under the *API Key* tab.
+The endpoint accepts POST requests with valid JSON.  However, the payload must include a valid email address currently associated with a contact in user’s audience to trigger workflow (i.e., `"email": "user@acme.org"`). The request must also include an Authorization header consisting of a user's public API key as username, private key as password, encoded in [basic auth](https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) format.  A user can generate API keys from their Emma account in **Account Settings** under the *API Key* tab.
 
 For example, setting up the headers for your POST request might look as follows:
 

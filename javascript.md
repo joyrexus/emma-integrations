@@ -9,6 +9,7 @@ We utilize [hapijs](http://hapijs.com) for internal web services.
 
 * [intro tutorial](http://hapijs.com/tutorials)
 * [nearform tutorial](http://www.nearform.com/nodecrunch/building-apis-hapi-js/)
+* [boilerplate quickstart](https://github.com/emmadev/architecture/blob/master/docs/hapi-boilerplate-quick-start.md)
 
 
 ## style guides
