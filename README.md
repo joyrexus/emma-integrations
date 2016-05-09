@@ -2,8 +2,8 @@
 
 We at Emma are in the process of setting up a new Integrations Engineering
 Team.  Most of us are new to the company, still getting oriented. Herein you'll
-find some personal notes and resources related to engineering third-party
-integrations with Emma.
+find some personal notes and resources related to integrating third-party
+services with Emma.
 
 
 ## Notes on Emma-specific tech
