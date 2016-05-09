@@ -7,7 +7,12 @@ The private repo containing the Event API's implementation is
 
 The endpoint for the Event API is `https://events.e2ma.net/v1/<account>/events/`.
 
-The endpoint accepts POST requests with valid JSON.  However, the payload must include a valid email address currently associated with a contact in user’s audience to trigger workflow (i.e., `"email": "user@acme.org"`). The request must also include an Authorization header consisting of a user's public API key as username, private key as password, encoded in [basic auth](https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) format.  A user can generate API keys from their Emma account in **Account Settings** under the *API Key* tab.
+The endpoint accepts POST requests with valid JSON.  However, the payload must include a valid email address currently associated with a contact in user’s audience to trigger workflow (i.e., `"email": "user@acme.org"`). Requests must also contain Basic Auth style headers with a user's API keys.  See below for details.
+
+
+## Authentication
+
+Event API requests have to include an **Authorization** header consisting of a user's public API key as username, private key as password, encoded in [basic auth](https://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) format.  A user can generate API keys from their Emma account in **Account Settings** under the *API Key* tab.
 
 For example, setting up the headers for your POST request might look as follows:
 
@@ -28,6 +33,10 @@ const headers = {
   "Content-Length": body.length
 };
 ```
+
+The Event's API is using [a custom authorizer](https://github.com/emmadev/external-events/tree/master/emma-api-authorizer) to validate the Basic Auth header. This is a lambda function that [takes the authorization header passed to
+the API Gateway endpoint and makes a request to Emma's public API to
+validate the header](https://github.com/emmadev/external-events/blob/master/emma-api-authorizer/index.js#L74-L82). See [this article](https://aws.amazon.com/jp/blogs/compute/introducing-custom-authorizers-in-amazon-api-gateway/) for an intro to using custom authorizers with the API Gateway.
 
 
 ## Workflows
