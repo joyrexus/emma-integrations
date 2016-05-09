@@ -1,8 +1,6 @@
-# Integration Service
+# eda-integrations
 
-See the [`eda-integrations`](https://github.com/emmadev/eda-integrations) repo. Emma's Integration Service consists of a [hapi](http://hapijs.com)-based http server as well as a few python-based event-driven handlers. The service can be used for contact syncing, event notification via webhooks, and serving up content blocks to Emma's frontend editor.
-
-For an overview of the service and a description of how to use it for contact syncing, see [this document](https://github.com/emmadev/eda-integrations/blob/master/docs/ac-overview.md).
+Emma has two principle resources for developing third-party integrations, viz., Emma's [Public API](emma-api.md) as well as an internally available [eda-integrations](https://github.com/emmadev/eda-integrations/blob/master/docs/ac-overview.md) framework. The latter is an event-driven service for developing partner integrations that involve contact importing/syncing.  It provides end-user frontend support (called "Audience Connect") for setting up third-party service connections, mapping externally defined groups to internally defined groups, and mapping externally defined contact fields to internally defined contact fields.  It's also possible to use the framework to notify third-party services of contact opt-out events.
 
 An overview of the service from an internal perspective is available [here](https://myemma.atlassian.net/wiki/display/INT/Integrations+Service) and [here](https://myemma.atlassian.net/wiki/display/INT/Contact+Syncing+MVP).  
 
