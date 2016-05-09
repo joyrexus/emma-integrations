@@ -11,6 +11,8 @@ We utilize [hapijs](http://hapijs.com) for internal web services.
 * [nearform tutorial](http://www.nearform.com/nodecrunch/building-apis-hapi-js/)
 * [boilerplate quickstart](https://github.com/emmadev/architecture/blob/master/docs/hapi-boilerplate-quick-start.md)
 
+Take note of the [`hapi-auth` plugin](https://github.com/emmadev/hapi-auth#hapi-auth) for handling [user authentication and authorization](https://medium.com/@poeticninja/authentication-and-authorization-with-hapi-5529b5ecc8ec#.r47s22gls) in your hapi services at Emma.
+
 
 ## style guides
 

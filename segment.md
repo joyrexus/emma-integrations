@@ -1,6 +1,6 @@
 # Segment.com integration
 
-We're going to implement a [direct integration](https://segment.com/docs/partners/direct-integration/#2-build-an-endpoint-to-receive-customer-data) with [Segment](https://segment.com).
+We're going to implement a [direct integration](https://segment.com/docs/partners/direct-integration/#2-build-an-endpoint-to-receive-customer-data) for [Segment.com](https://segment.com), leveraging the work that's been done for Emma's general purpose [Events API](https://github.com/emmadev/external-events).
 
 
 ## Resources 
