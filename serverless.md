@@ -9,3 +9,5 @@
 * [invoking lambdas via SNS](https://mobile.awsblog.com/post/Tx1VE917Z8J4UDY/Invoking-AWS-Lambda-functions-via-Amazon-SNS) - showing how to create a sample message history store using SNS, Lambda, and Amazon DynamoDB
 
 * [introducing apex](https://medium.com/@tjholowaychuk/introducing-apex-800824ffaa70#.cah3z5u5l) - lambda deployment utility
+
+* [introducing sparta](https://medium.com/@tjholowaychuk/introducing-apex-800824ffaa70#.cah3z5u5l) - a go framework for lambda
